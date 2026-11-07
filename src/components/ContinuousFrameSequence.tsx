@@ -7,6 +7,8 @@ export interface ContinuousFrameSequenceProps {
   getClosestLoadedFrame: (index: number) => HTMLImageElement | null;
   loadFrame: (index: number) => Promise<HTMLImageElement>;
   requestFrames: (index: number) => void;
+  bgTopColor?: string;
+  bgBottomColor?: string;
   className?: string;
   style?: React.CSSProperties;
 }
@@ -17,6 +19,8 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
   getClosestLoadedFrame,
   loadFrame,
   requestFrames,
+  bgTopColor = '#adb0b1',
+  bgBottomColor = '#cbcfce',
   className,
   style
 }) => {
@@ -26,12 +30,13 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
   const lastRenderedIndexRef = useRef<number | null>(null);
   const lastRenderedImgRef = useRef<HTMLImageElement | null>(null);
   const lastDimensionsRef = useRef<{ w: number; h: number; dpr: number }>({ w: 0, h: 0, dpr: 0 });
+  const lastBgRef = useRef<{ top: string; bot: string }>({ top: '', bot: '' });
   const rafIdRef = useRef<number | null>(null);
   const activeTargetIndexRef = useRef<number>(frameIndex);
 
   activeTargetIndexRef.current = frameIndex;
 
-  // Draw an image onto the canvas using contain logic & high-DPI scaling
+  // Draw an image onto the canvas using contain logic, studio gradient background & high-DPI scaling
   const drawImageToCanvas = useCallback((img: HTMLImageElement, targetIndex: number) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -55,10 +60,6 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
 
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-    // Fill background
-    ctx.fillStyle = '#08090B';
-    ctx.fillRect(0, 0, cw, ch);
-
     // Contain aspect ratio calculations
     const canvasAspect = cw / ch;
     let drawW: number;
@@ -77,13 +78,30 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
     const drawX = (cw - drawW) / 2;
     const drawY = (ch - drawH) / 2;
 
+    // Fill background with aligned studio gradient to avoid visible letterbox borders
+    if (drawY > 0) {
+      ctx.fillStyle = bgTopColor;
+      ctx.fillRect(0, 0, cw, drawY + 1);
+    }
+    if (drawY + drawH < ch) {
+      ctx.fillStyle = bgBottomColor;
+      ctx.fillRect(0, drawY + drawH - 1, cw, ch - (drawY + drawH) + 1);
+    }
+
+    const bgGradient = ctx.createLinearGradient(0, Math.max(0, drawY), 0, Math.min(ch, drawY + drawH));
+    bgGradient.addColorStop(0, bgTopColor);
+    bgGradient.addColorStop(1, bgBottomColor);
+    ctx.fillStyle = bgGradient;
+    ctx.fillRect(0, drawY, cw, drawH);
+
     // Draw the machinery
     ctx.drawImage(img, drawX, drawY, drawW, drawH);
 
     lastRenderedIndexRef.current = targetIndex;
     lastRenderedImgRef.current = img;
     lastDimensionsRef.current = { w: cw, h: ch, dpr };
-  }, []);
+    lastBgRef.current = { top: bgTopColor, bot: bgBottomColor };
+  }, [bgTopColor, bgBottomColor]);
 
   // Render loop / update handler
   const renderCurrent = useCallback((targetIndex: number) => {
@@ -99,6 +117,10 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
       lastDimensionsRef.current.h !== ch ||
       lastDimensionsRef.current.dpr !== dpr;
 
+    const bgChanged =
+      lastBgRef.current.top !== bgTopColor ||
+      lastBgRef.current.bot !== bgBottomColor;
+
     // Request upcoming frames around target
     requestFrames(targetIndex);
 
@@ -106,7 +128,12 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
     const exactImg = getCachedFrame(targetIndex);
 
     if (exactImg) {
-      if (lastRenderedIndexRef.current !== targetIndex || dimsChanged || lastRenderedImgRef.current !== exactImg) {
+      if (
+        lastRenderedIndexRef.current !== targetIndex ||
+        dimsChanged ||
+        bgChanged ||
+        lastRenderedImgRef.current !== exactImg
+      ) {
         drawImageToCanvas(exactImg, targetIndex);
       }
       return;
@@ -114,7 +141,7 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
 
     // If target is not ready yet:
     // Safe fallback: render closest frame if we don't have anything rendered yet
-    if (!lastRenderedImgRef.current || dimsChanged) {
+    if (!lastRenderedImgRef.current || dimsChanged || bgChanged) {
       const fallbackImg = getClosestLoadedFrame(targetIndex);
       if (fallbackImg) {
         drawImageToCanvas(fallbackImg, targetIndex);
@@ -130,9 +157,9 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
     }).catch(() => {
       // Graceful error handling: keep showing previous frame
     });
-  }, [getCachedFrame, getClosestLoadedFrame, loadFrame, requestFrames, drawImageToCanvas]);
+  }, [getCachedFrame, getClosestLoadedFrame, loadFrame, requestFrames, drawImageToCanvas, bgTopColor, bgBottomColor]);
 
-  // Handle frameIndex changes via requestAnimationFrame
+  // Handle frameIndex or background changes via requestAnimationFrame
   useEffect(() => {
     const safeIndex = Math.max(0, Math.min(TOTAL_FRAMES - 1, frameIndex));
     activeTargetIndexRef.current = safeIndex;
@@ -196,7 +223,6 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
         width: '100%',
         height: '100%',
         overflow: 'hidden',
-        backgroundColor: '#08090B',
         ...style
       }}
     >
@@ -205,8 +231,7 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
         style={{
           display: 'block',
           width: '100%',
-          height: '100%',
-          backgroundColor: '#08090B'
+          height: '100%'
         }}
       />
     </div>

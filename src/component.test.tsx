@@ -7,10 +7,12 @@ describe('ContinuousFrameSequence Component', () => {
   let mockContext: any;
 
   beforeEach(() => {
+    const mockGradient = { addColorStop: vi.fn() };
     mockContext = {
       setTransform: vi.fn(),
       fillRect: vi.fn(),
       drawImage: vi.fn(),
+      createLinearGradient: vi.fn().mockReturnValue(mockGradient),
       fillStyle: ''
     };
 
@@ -29,7 +31,7 @@ describe('ContinuousFrameSequence Component', () => {
     });
   });
 
-  it('renders canvas element with dark background style', () => {
+  it('renders canvas element cleanly inside container', () => {
     const mockImage = new Image();
     const getCachedFrame = vi.fn().mockReturnValue(mockImage);
     const getClosestLoadedFrame = vi.fn().mockReturnValue(mockImage);
@@ -48,7 +50,7 @@ describe('ContinuousFrameSequence Component', () => {
 
     const canvas = container.querySelector('canvas');
     expect(canvas).not.toBeNull();
-    expect(canvas?.style.backgroundColor).toBe('rgb(8, 9, 11)');
+    expect(canvas?.style.display).toBe('block');
   });
 
   it('calls requestFrames on mount and frame updates', async () => {
