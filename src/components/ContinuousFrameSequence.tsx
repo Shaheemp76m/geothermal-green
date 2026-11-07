@@ -9,6 +9,7 @@ export interface ContinuousFrameSequenceProps {
   requestFrames: (index: number) => void;
   bgTopColor?: string;
   bgBottomColor?: string;
+  fitMode?: 'auto' | 'cover' | 'contain';
   className?: string;
   style?: React.CSSProperties;
 }
@@ -21,6 +22,7 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
   requestFrames,
   bgTopColor = '#adb0b1',
   bgBottomColor = '#cbcfce',
+  fitMode = 'auto',
   className,
   style
 }) => {
@@ -36,7 +38,7 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
 
   activeTargetIndexRef.current = frameIndex;
 
-  // Draw an image onto the canvas using contain logic, studio gradient background & high-DPI scaling
+  // Draw an image onto the canvas using contain/cover logic, studio gradient background & high-DPI scaling
   const drawImageToCanvas = useCallback((img: HTMLImageElement, targetIndex: number) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -60,25 +62,47 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
 
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-    // Contain aspect ratio calculations
     const canvasAspect = cw / ch;
+
+    // Detect laptop/desktop displays (screen width >= 1024px or >= 960px landscape desktop with fine pointer)
+    const isLaptop =
+      fitMode === 'cover'
+        ? true
+        : fitMode === 'contain'
+        ? false
+        : cw >= 1024 ||
+          (cw >= 960 &&
+            typeof window !== 'undefined' &&
+            window.matchMedia &&
+            window.matchMedia('(hover: hover) and (pointer: fine)').matches);
+
     let drawW: number;
     let drawH: number;
 
-    if (canvasAspect > ORIGINAL_ASPECT_RATIO) {
-      // Window is wider than 16:9
-      drawH = ch;
-      drawW = ch * ORIGINAL_ASPECT_RATIO;
+    if (isLaptop) {
+      // Full screen on laptops: cover the entire viewport edge-to-edge without letterboxing
+      if (canvasAspect > ORIGINAL_ASPECT_RATIO) {
+        drawW = cw;
+        drawH = cw / ORIGINAL_ASPECT_RATIO;
+      } else {
+        drawH = ch;
+        drawW = ch * ORIGINAL_ASPECT_RATIO;
+      }
     } else {
-      // Window is taller than 16:9
-      drawW = cw;
-      drawH = cw / ORIGINAL_ASPECT_RATIO;
+      // Mobile / tablets: contain mode (preserves entire frame, no cropping on narrow screens)
+      if (canvasAspect > ORIGINAL_ASPECT_RATIO) {
+        drawH = ch;
+        drawW = ch * ORIGINAL_ASPECT_RATIO;
+      } else {
+        drawW = cw;
+        drawH = cw / ORIGINAL_ASPECT_RATIO;
+      }
     }
 
     const drawX = (cw - drawW) / 2;
     const drawY = (ch - drawH) / 2;
 
-    // Fill background with aligned studio gradient to avoid visible letterbox borders
+    // Fill background with aligned studio gradient to avoid visible letterbox borders when letterboxing exists
     if (drawY > 0) {
       ctx.fillStyle = bgTopColor;
       ctx.fillRect(0, 0, cw, drawY + 1);
@@ -92,7 +116,7 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
     bgGradient.addColorStop(0, bgTopColor);
     bgGradient.addColorStop(1, bgBottomColor);
     ctx.fillStyle = bgGradient;
-    ctx.fillRect(0, drawY, cw, drawH);
+    ctx.fillRect(Math.max(0, drawX), Math.max(0, drawY), Math.min(cw, drawW), Math.min(ch, drawH));
 
     // Draw the machinery
     ctx.drawImage(img, drawX, drawY, drawW, drawH);
@@ -101,7 +125,7 @@ export const ContinuousFrameSequence: React.FC<ContinuousFrameSequenceProps> = (
     lastRenderedImgRef.current = img;
     lastDimensionsRef.current = { w: cw, h: ch, dpr };
     lastBgRef.current = { top: bgTopColor, bot: bgBottomColor };
-  }, [bgTopColor, bgBottomColor]);
+  }, [bgTopColor, bgBottomColor, fitMode]);
 
   // Render loop / update handler
   const renderCurrent = useCallback((targetIndex: number) => {
