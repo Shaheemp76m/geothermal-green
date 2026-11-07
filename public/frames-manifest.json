@@ -1,0 +1,5140 @@
+{
+  "title": "GEOTHERM-X Continuous Scroll Image Sequence Prototype",
+  "totalUniqueFrames": 564,
+  "fps": 30,
+  "approxDurationSeconds": 18.8,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 1.7777777777777777
+  },
+  "sequences": [
+    {
+      "id": "sequence-01",
+      "name": "Sequence 1",
+      "archive": "first phase.zip",
+      "order": 1,
+      "rawFrameCount": 269,
+      "includedFrameCount": 269,
+      "firstFile": "ezgif-frame-001.jpg",
+      "lastFile": "ezgif-frame-269.jpg",
+      "boundaryRole": "starts animation; final frame is shared boundary with sequence-02"
+    },
+    {
+      "id": "sequence-02",
+      "name": "Sequence 2",
+      "archive": "second phase.zip",
+      "order": 2,
+      "rawFrameCount": 118,
+      "includedFrameCount": 117,
+      "firstFile": "ezgif-frame-001.jpg",
+      "lastFile": "ezgif-frame-118.jpg",
+      "omittedBoundaryFrame": "ezgif-frame-001.jpg",
+      "boundaryRole": "starts directly from sequence-01; final frame is shared boundary with sequence-03"
+    },
+    {
+      "id": "sequence-03",
+      "name": "Sequence 3",
+      "archive": "third phase.zip",
+      "order": 3,
+      "rawFrameCount": 179,
+      "includedFrameCount": 178,
+      "firstFile": "ezgif-frame-001.jpg",
+      "lastFile": "ezgif-frame-179.jpg",
+      "omittedBoundaryFrame": "ezgif-frame-001.jpg",
+      "boundaryRole": "starts directly from sequence-02; final frame is end of animation"
+    }
+  ],
+  "boundaries": [
+    {
+      "boundary": "sequence-01 -> sequence-02",
+      "seq1LastFrame": "ezgif-frame-269.jpg",
+      "seq2FirstFrame": "ezgif-frame-001.jpg",
+      "handling": "Shared boundary frame included once via sequence-01 ezgif-frame-269.jpg; sequence-02 begins from ezgif-frame-002.jpg"
+    },
+    {
+      "boundary": "sequence-02 -> sequence-03",
+      "seq2LastFrame": "ezgif-frame-118.jpg",
+      "seq3FirstFrame": "ezgif-frame-001.jpg",
+      "handling": "Shared boundary frame included once via sequence-02 ezgif-frame-118.jpg; sequence-03 begins from ezgif-frame-002.jpg"
+    }
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-001.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-001.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 1,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-002.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-002.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 2,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-003.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-003.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 3,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-004.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-004.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 4,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-005.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-005.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 5,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-006.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-006.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 6,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-007.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-007.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 7,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-008.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-008.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 8,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-009.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-009.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 9,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-010.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-010.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 10,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-011.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-011.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 11,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-012.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-012.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 12,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-013.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-013.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 13,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-014.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-014.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 14,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-015.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-015.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 15,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-016.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-016.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 16,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-017.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-017.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 17,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-018.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-018.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 18,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-019.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-019.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 19,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-020.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-020.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 20,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-021.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-021.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 21,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-022.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-022.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 22,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-023.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-023.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 23,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-024.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-024.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 24,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-025.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-025.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 25,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-026.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-026.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 26,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-027.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-027.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 27,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-028.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-028.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 28,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-029.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-029.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 29,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-030.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-030.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 30,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-031.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-031.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 31,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-032.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-032.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 32,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-033.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-033.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 33,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-034.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-034.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 34,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-035.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-035.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 35,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-036.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-036.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 36,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-037.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-037.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 37,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-038.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-038.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 38,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-039.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-039.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 39,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-040.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-040.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 40,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-041.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-041.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 41,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-042.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-042.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 42,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-043.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-043.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 43,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-044.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-044.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 44,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-045.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-045.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 45,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-046.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-046.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 46,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-047.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-047.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 47,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-048.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-048.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 48,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-049.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-049.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 49,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-050.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-050.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 50,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-051.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-051.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 51,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-052.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-052.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 52,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-053.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-053.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 53,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-054.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-054.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 54,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-055.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-055.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 55,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-056.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-056.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 56,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-057.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-057.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 57,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-058.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-058.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 58,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-059.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-059.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 59,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-060.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-060.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 60,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-061.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-061.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 61,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-062.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-062.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 62,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-063.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-063.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 63,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-064.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-064.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 64,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-065.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-065.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 65,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-066.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-066.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 66,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-067.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-067.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 67,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-068.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-068.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 68,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-069.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-069.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 69,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-070.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-070.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 70,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-071.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-071.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 71,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-072.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-072.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 72,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-073.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-073.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 73,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-074.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-074.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 74,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-075.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-075.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 75,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-076.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-076.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 76,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-077.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-077.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 77,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-078.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-078.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 78,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-079.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-079.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 79,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-080.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-080.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 80,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-081.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-081.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 81,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-082.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-082.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 82,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-083.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-083.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 83,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-084.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-084.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 84,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-085.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-085.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 85,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-086.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-086.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 86,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-087.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-087.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 87,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-088.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-088.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 88,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-089.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-089.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 89,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-090.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-090.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 90,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-091.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-091.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 91,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-092.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-092.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 92,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-093.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-093.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 93,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-094.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-094.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 94,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-095.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-095.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 95,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-096.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-096.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 96,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-097.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-097.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 97,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-098.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-098.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 98,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-099.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-099.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 99,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-100.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-100.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 100,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-101.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-101.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 101,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-102.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-102.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 102,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-103.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-103.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 103,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-104.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-104.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 104,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-105.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-105.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 105,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-106.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-106.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 106,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-107.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-107.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 107,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-108.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-108.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 108,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-109.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-109.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 109,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-110.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-110.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 110,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-111.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-111.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 111,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-112.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-112.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 112,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-113.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-113.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 113,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-114.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-114.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 114,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-115.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-115.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 115,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-116.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-116.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 116,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-117.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-117.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 117,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-118.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-118.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 118,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-119.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-119.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 119,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-120.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-120.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 120,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-121.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-121.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 121,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-122.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-122.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 122,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-123.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-123.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 123,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-124.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-124.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 124,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-125.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-125.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 125,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-126.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-126.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 126,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-127.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-127.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 127,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-128.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-128.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 128,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-129.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-129.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 129,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-130.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-130.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 130,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-131.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-131.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 131,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-132.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-132.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 132,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-133.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-133.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 133,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-134.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-134.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 134,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-135.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-135.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 135,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-136.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-136.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 136,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-137.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-137.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 137,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-138.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-138.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 138,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-139.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-139.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 139,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-140.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-140.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 140,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-141.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-141.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 141,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-142.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-142.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 142,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-143.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-143.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 143,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-144.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-144.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 144,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-145.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-145.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 145,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-146.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-146.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 146,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-147.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-147.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 147,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-148.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-148.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 148,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-149.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-149.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 149,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-150.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-150.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 150,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-151.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-151.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 151,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-152.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-152.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 152,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-153.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-153.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 153,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-154.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-154.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 154,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-155.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-155.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 155,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-156.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-156.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 156,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-157.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-157.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 157,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-158.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-158.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 158,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-159.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-159.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 159,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-160.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-160.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 160,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-161.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-161.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 161,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-162.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-162.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 162,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-163.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-163.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 163,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-164.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-164.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 164,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-165.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-165.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 165,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-166.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-166.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 166,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-167.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-167.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 167,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-168.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-168.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 168,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-169.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-169.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 169,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-170.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-170.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 170,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-171.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-171.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 171,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-172.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-172.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 172,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-173.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-173.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 173,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-174.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-174.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 174,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-175.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-175.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 175,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-176.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-176.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 176,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-177.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-177.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 177,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-178.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-178.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 178,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-179.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-179.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 179,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-180.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-180.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 180,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-181.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-181.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 181,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-182.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-182.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 182,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-183.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-183.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 183,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-184.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-184.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 184,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-185.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-185.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 185,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-186.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-186.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 186,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-187.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-187.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 187,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-188.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-188.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 188,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-189.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-189.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 189,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-190.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-190.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 190,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-191.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-191.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 191,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-192.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-192.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 192,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-193.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-193.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 193,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-194.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-194.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 194,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-195.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-195.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 195,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-196.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-196.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 196,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-197.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-197.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 197,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-198.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-198.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 198,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-199.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-199.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 199,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-200.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-200.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 200,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-201.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-201.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 201,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-202.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-202.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 202,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-203.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-203.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 203,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-204.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-204.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 204,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-205.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-205.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 205,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-206.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-206.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 206,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-207.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-207.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 207,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-208.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-208.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 208,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-209.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-209.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 209,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-210.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-210.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 210,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-211.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-211.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 211,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-212.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-212.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 212,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-213.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-213.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 213,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-214.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-214.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 214,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-215.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-215.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 215,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-216.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-216.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 216,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-217.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-217.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 217,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-218.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-218.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 218,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-219.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-219.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 219,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-220.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-220.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 220,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-221.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-221.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 221,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-222.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-222.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 222,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-223.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-223.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 223,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-224.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-224.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 224,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-225.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-225.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 225,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-226.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-226.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 226,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-227.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-227.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 227,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-228.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-228.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 228,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-229.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-229.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 229,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-230.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-230.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 230,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-231.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-231.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 231,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-232.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-232.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 232,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-233.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-233.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 233,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-234.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-234.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 234,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-235.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-235.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 235,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-236.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-236.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 236,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-237.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-237.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 237,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-238.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-238.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 238,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-239.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-239.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 239,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-240.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-240.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 240,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-241.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-241.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 241,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-242.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-242.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 242,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-243.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-243.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 243,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-244.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-244.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 244,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-245.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-245.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 245,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-246.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-246.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 246,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-247.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-247.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 247,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-248.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-248.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 248,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-249.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-249.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 249,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-250.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-250.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 250,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-251.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-251.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 251,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-252.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-252.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 252,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-253.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-253.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 253,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-254.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-254.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 254,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-255.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-255.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 255,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-256.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-256.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 256,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-257.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-257.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 257,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-258.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-258.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 258,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-259.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-259.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 259,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-260.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-260.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 260,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-261.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-261.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 261,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-262.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-262.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 262,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-263.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-263.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 263,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-264.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-264.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 264,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-265.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-265.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 265,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-266.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-266.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 266,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-267.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-267.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 267,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-268.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-268.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 268,
+      "sequence": "sequence-01",
+      "archive": "first phase.zip",
+      "filename": "ezgif-frame-269.jpg",
+      "path": "/frames/sequence-01/ezgif-frame-269.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 269,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-002.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-002.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 270,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-003.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-003.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 271,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-004.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-004.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 272,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-005.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-005.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 273,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-006.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-006.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 274,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-007.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-007.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 275,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-008.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-008.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 276,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-009.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-009.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 277,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-010.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-010.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 278,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-011.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-011.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 279,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-012.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-012.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 280,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-013.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-013.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 281,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-014.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-014.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 282,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-015.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-015.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 283,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-016.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-016.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 284,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-017.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-017.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 285,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-018.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-018.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 286,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-019.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-019.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 287,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-020.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-020.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 288,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-021.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-021.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 289,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-022.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-022.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 290,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-023.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-023.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 291,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-024.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-024.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 292,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-025.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-025.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 293,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-026.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-026.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 294,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-027.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-027.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 295,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-028.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-028.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 296,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-029.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-029.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 297,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-030.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-030.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 298,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-031.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-031.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 299,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-032.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-032.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 300,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-033.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-033.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 301,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-034.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-034.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 302,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-035.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-035.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 303,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-036.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-036.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 304,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-037.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-037.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 305,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-038.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-038.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 306,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-039.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-039.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 307,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-040.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-040.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 308,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-041.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-041.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 309,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-042.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-042.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 310,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-043.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-043.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 311,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-044.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-044.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 312,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-045.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-045.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 313,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-046.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-046.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 314,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-047.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-047.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 315,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-048.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-048.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 316,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-049.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-049.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 317,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-050.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-050.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 318,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-051.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-051.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 319,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-052.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-052.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 320,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-053.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-053.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 321,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-054.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-054.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 322,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-055.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-055.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 323,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-056.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-056.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 324,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-057.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-057.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 325,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-058.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-058.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 326,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-059.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-059.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 327,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-060.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-060.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 328,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-061.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-061.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 329,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-062.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-062.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 330,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-063.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-063.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 331,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-064.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-064.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 332,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-065.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-065.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 333,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-066.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-066.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 334,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-067.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-067.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 335,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-068.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-068.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 336,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-069.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-069.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 337,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-070.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-070.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 338,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-071.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-071.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 339,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-072.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-072.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 340,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-073.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-073.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 341,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-074.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-074.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 342,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-075.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-075.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 343,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-076.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-076.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 344,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-077.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-077.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 345,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-078.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-078.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 346,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-079.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-079.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 347,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-080.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-080.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 348,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-081.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-081.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 349,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-082.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-082.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 350,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-083.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-083.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 351,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-084.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-084.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 352,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-085.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-085.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 353,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-086.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-086.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 354,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-087.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-087.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 355,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-088.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-088.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 356,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-089.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-089.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 357,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-090.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-090.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 358,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-091.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-091.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 359,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-092.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-092.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 360,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-093.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-093.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 361,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-094.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-094.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 362,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-095.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-095.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 363,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-096.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-096.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 364,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-097.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-097.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 365,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-098.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-098.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 366,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-099.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-099.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 367,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-100.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-100.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 368,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-101.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-101.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 369,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-102.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-102.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 370,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-103.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-103.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 371,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-104.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-104.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 372,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-105.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-105.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 373,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-106.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-106.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 374,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-107.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-107.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 375,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-108.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-108.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 376,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-109.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-109.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 377,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-110.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-110.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 378,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-111.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-111.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 379,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-112.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-112.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 380,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-113.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-113.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 381,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-114.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-114.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 382,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-115.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-115.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 383,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-116.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-116.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 384,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-117.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-117.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 385,
+      "sequence": "sequence-02",
+      "archive": "second phase.zip",
+      "filename": "ezgif-frame-118.jpg",
+      "path": "/frames/sequence-02/ezgif-frame-118.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 386,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-002.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-002.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 387,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-003.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-003.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 388,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-004.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-004.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 389,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-005.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-005.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 390,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-006.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-006.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 391,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-007.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-007.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 392,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-008.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-008.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 393,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-009.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-009.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 394,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-010.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-010.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 395,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-011.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-011.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 396,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-012.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-012.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 397,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-013.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-013.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 398,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-014.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-014.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 399,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-015.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-015.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 400,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-016.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-016.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 401,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-017.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-017.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 402,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-018.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-018.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 403,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-019.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-019.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 404,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-020.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-020.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 405,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-021.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-021.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 406,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-022.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-022.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 407,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-023.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-023.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 408,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-024.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-024.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 409,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-025.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-025.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 410,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-026.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-026.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 411,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-027.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-027.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 412,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-028.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-028.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 413,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-029.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-029.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 414,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-030.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-030.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 415,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-031.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-031.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 416,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-032.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-032.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 417,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-033.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-033.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 418,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-034.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-034.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 419,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-035.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-035.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 420,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-036.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-036.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 421,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-037.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-037.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 422,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-038.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-038.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 423,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-039.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-039.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 424,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-040.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-040.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 425,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-041.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-041.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 426,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-042.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-042.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 427,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-043.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-043.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 428,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-044.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-044.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 429,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-045.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-045.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 430,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-046.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-046.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 431,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-047.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-047.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 432,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-048.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-048.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 433,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-049.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-049.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 434,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-050.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-050.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 435,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-051.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-051.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 436,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-052.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-052.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 437,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-053.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-053.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 438,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-054.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-054.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 439,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-055.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-055.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 440,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-056.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-056.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 441,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-057.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-057.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 442,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-058.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-058.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 443,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-059.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-059.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 444,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-060.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-060.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 445,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-061.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-061.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 446,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-062.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-062.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 447,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-063.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-063.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 448,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-064.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-064.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 449,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-065.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-065.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 450,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-066.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-066.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 451,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-067.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-067.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 452,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-068.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-068.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 453,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-069.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-069.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 454,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-070.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-070.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 455,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-071.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-071.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 456,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-072.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-072.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 457,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-073.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-073.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 458,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-074.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-074.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 459,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-075.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-075.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 460,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-076.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-076.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 461,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-077.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-077.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 462,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-078.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-078.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 463,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-079.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-079.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 464,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-080.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-080.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 465,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-081.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-081.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 466,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-082.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-082.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 467,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-083.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-083.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 468,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-084.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-084.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 469,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-085.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-085.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 470,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-086.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-086.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 471,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-087.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-087.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 472,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-088.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-088.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 473,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-089.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-089.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 474,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-090.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-090.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 475,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-091.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-091.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 476,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-092.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-092.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 477,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-093.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-093.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 478,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-094.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-094.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 479,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-095.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-095.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 480,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-096.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-096.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 481,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-097.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-097.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 482,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-098.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-098.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 483,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-099.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-099.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 484,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-100.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-100.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 485,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-101.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-101.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 486,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-102.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-102.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 487,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-103.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-103.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 488,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-104.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-104.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 489,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-105.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-105.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 490,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-106.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-106.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 491,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-107.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-107.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 492,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-108.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-108.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 493,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-109.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-109.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 494,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-110.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-110.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 495,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-111.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-111.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 496,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-112.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-112.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 497,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-113.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-113.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 498,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-114.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-114.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 499,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-115.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-115.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 500,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-116.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-116.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 501,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-117.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-117.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 502,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-118.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-118.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 503,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-119.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-119.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 504,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-120.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-120.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 505,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-121.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-121.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 506,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-122.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-122.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 507,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-123.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-123.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 508,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-124.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-124.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 509,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-125.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-125.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 510,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-126.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-126.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 511,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-127.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-127.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 512,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-128.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-128.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 513,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-129.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-129.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 514,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-130.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-130.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 515,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-131.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-131.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 516,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-132.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-132.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 517,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-133.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-133.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 518,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-134.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-134.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 519,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-135.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-135.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 520,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-136.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-136.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 521,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-137.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-137.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 522,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-138.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-138.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 523,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-139.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-139.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 524,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-140.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-140.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 525,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-141.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-141.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 526,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-142.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-142.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 527,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-143.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-143.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 528,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-144.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-144.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 529,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-145.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-145.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 530,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-146.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-146.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 531,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-147.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-147.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 532,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-148.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-148.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 533,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-149.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-149.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 534,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-150.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-150.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 535,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-151.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-151.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 536,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-152.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-152.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 537,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-153.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-153.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 538,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-154.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-154.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 539,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-155.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-155.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 540,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-156.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-156.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 541,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-157.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-157.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 542,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-158.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-158.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 543,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-159.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-159.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 544,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-160.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-160.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 545,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-161.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-161.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 546,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-162.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-162.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 547,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-163.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-163.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 548,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-164.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-164.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 549,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-165.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-165.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 550,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-166.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-166.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 551,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-167.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-167.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 552,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-168.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-168.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 553,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-169.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-169.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 554,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-170.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-170.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 555,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-171.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-171.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 556,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-172.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-172.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 557,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-173.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-173.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 558,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-174.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-174.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 559,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-175.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-175.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 560,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-176.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-176.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 561,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-177.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-177.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 562,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-178.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-178.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "index": 563,
+      "sequence": "sequence-03",
+      "archive": "third phase.zip",
+      "filename": "ezgif-frame-179.jpg",
+      "path": "/frames/sequence-03/ezgif-frame-179.jpg",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}
