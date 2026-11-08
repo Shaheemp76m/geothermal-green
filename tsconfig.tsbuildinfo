@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/components/AnimationCanvas.tsx","./src/components/LoadingScreen.tsx","./src/components/ScrollExperience.tsx","./src/components/ScrollIndicator.tsx","./src/hooks/useImageSequence.ts","./src/hooks/useScrollExperience.ts","./src/utils/canvasRenderer.ts","./src/utils/frameMapper.ts","./src/utils/imageLoader.ts"],"version":"5.9.3"}

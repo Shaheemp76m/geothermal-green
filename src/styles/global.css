@@ -1,0 +1,35 @@
+:root {
+  --background: #101114;
+  --surface: #25272B;
+  --text-primary: #F4F1E9;
+  --text-secondary: #A6A7A3;
+  --accent: #E89A42;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: auto; /* GSAP ScrollTrigger manages scroll behaviour */
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: 'Inter', 'SF Pro Display', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Prevent text selection during scroll interaction */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
