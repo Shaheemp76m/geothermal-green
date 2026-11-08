@@ -9,6 +9,11 @@
  *  - Phase label overlay
  *  - Scroll indicator visibility
  *  - Progress bar
+ *
+ * Performance note:
+ *  Progress bar width, frame counter, and phase label are updated via direct DOM
+ *  references inside handleProgress. This eliminates React component re-renders
+ *  during active scrolling, freeing CPU time for smooth canvas frame rendering.
  */
 
 import { useRef, useState, useCallback } from 'react';
@@ -34,12 +39,17 @@ function getPhaseLabel(progress: number): { phase: string; title: string } {
 
 export function ScrollExperience() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const progressBarFillRef = useRef<HTMLDivElement>(null);
+  const phaseNumRef = useRef<HTMLSpanElement>(null);
+  const phaseTitleRef = useRef<HTMLSpanElement>(null);
+  const frameCounterRef = useRef<HTMLDivElement>(null);
+
+  const lastFrameNumRef = useRef<number>(-1);
+  const lastPhaseRef = useRef<string>('');
+  const hasScrolledRef = useRef<boolean>(false);
+
   const [isReady, setIsReady] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
-  const [progressValue, setProgressValue] = useState(0);
-
-  const phaseLabel = getPhaseLabel(progressValue);
-  const frameNum = progressToGlobalIndex(progressValue) + 1;
 
   const handleFirstFrameReady = useCallback(() => {
     setIsReady(true);
@@ -50,14 +60,43 @@ export function ScrollExperience() {
   });
 
   const handleProgress = useCallback(
-    (progress: number, direction: number) => {
-      setProgress(progress, direction);
-      setProgressValue(progress);
-      if (progress > 0.005 && !hasScrolled) {
+    (progress: number, direction: number, velocity: number = 0) => {
+      setProgress(progress, direction, velocity);
+
+      // Direct DOM update: progress bar width
+      if (progressBarFillRef.current) {
+        progressBarFillRef.current.style.width = `${progress * 100}%`;
+      }
+
+      // Direct DOM update: frame counter
+      const globalIndex = progressToGlobalIndex(progress);
+      const frameNum = globalIndex + 1;
+      if (frameNum !== lastFrameNumRef.current) {
+        lastFrameNumRef.current = frameNum;
+        if (frameCounterRef.current) {
+          frameCounterRef.current.textContent = `${String(frameNum).padStart(3, '0')} / ${totalFrames}`;
+        }
+      }
+
+      // Direct DOM update: phase indicators
+      const phaseInfo = getPhaseLabel(progress);
+      if (phaseInfo.phase !== lastPhaseRef.current) {
+        lastPhaseRef.current = phaseInfo.phase;
+        if (phaseNumRef.current) {
+          phaseNumRef.current.textContent = `PHASE ${phaseInfo.phase}`;
+        }
+        if (phaseTitleRef.current) {
+          phaseTitleRef.current.textContent = phaseInfo.title;
+        }
+      }
+
+      // Fade out scroll indicator on initial scroll
+      if (progress > 0.005 && !hasScrolledRef.current) {
+        hasScrolledRef.current = true;
         setHasScrolled(true);
       }
     },
-    [setProgress, hasScrolled]
+    [setProgress]
   );
 
   useScrollExperience({
@@ -77,26 +116,25 @@ export function ScrollExperience() {
 
         {/* Phase label — top left */}
         <div style={phaseLabelStyle}>
-          <span style={phaseNumStyle}>PHASE {phaseLabel.phase}</span>
-          <span style={phaseTitleStyle}>{phaseLabel.title}</span>
+          <span ref={phaseNumRef} style={phaseNumStyle}>
+            PHASE 01
+          </span>
+          <span ref={phaseTitleRef} style={phaseTitleStyle}>
+            The Components
+          </span>
         </div>
 
         {/* GEOTHERM-X wordmark — top right */}
         <div style={wordmarkStyle}>GEOTHERM&#8209;X</div>
 
         {/* Frame counter — bottom right (subtle dev reference) */}
-        <div style={frameCounterStyle}>
-          {String(frameNum).padStart(3, '0')} / {totalFrames}
+        <div ref={frameCounterRef} style={frameCounterStyle}>
+          001 / {totalFrames}
         </div>
 
         {/* Progress bar — bottom edge */}
         <div style={progressBarTrackStyle}>
-          <div
-            style={{
-              ...progressBarFillStyle,
-              width: `${progressValue * 100}%`,
-            }}
-          />
+          <div ref={progressBarFillRef} style={progressBarFillStyle} />
         </div>
       </div>
 
@@ -179,6 +217,7 @@ const progressBarTrackStyle: React.CSSProperties = {
 };
 
 const progressBarFillStyle: React.CSSProperties = {
+  width: '0%',
   height: '100%',
   backgroundColor: '#E89A42',
   transition: 'width 0.08s linear',
